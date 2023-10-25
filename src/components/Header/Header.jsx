@@ -7,6 +7,7 @@ const Header = () => {
             <Link to='/'>Home</Link>
             <Link to='/login'>Log in</Link>
             <Link to='/signup'>Sign Up</Link>
+            <Link to='/form'>Form-RBS</Link>
         </div>
     );
 };

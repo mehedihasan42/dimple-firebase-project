@@ -12,7 +12,9 @@ const Signup = () => {
 
     const handleSubmit = event =>{
         event.preventDefault()
-        console.log(event.target.email.value,event.target.password.value)
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(email,password)
     }
 
     return (
